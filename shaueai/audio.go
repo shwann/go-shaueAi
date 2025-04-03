@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	utils "github.com/golang/go-shaueAi/internal"
+	utils "github.com/shwann/go-shaueAi/internal"
 )
 
 // Whisper Defines the models provided by OpenAI to use when processing audio with OpenAI.

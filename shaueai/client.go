@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	utils "github.com/golang/go-shaueAi/internal"
+	utils "github.com/shwann/go-shaueAi/internal"
 )
 
 // Client is OpenAI GPT-3 API client.

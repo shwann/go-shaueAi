@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	utils "github.com/golang/go-shaueAi/internal"
+	utils "github.com/shwann/go-shaueAi/internal"
 )
 
 var (

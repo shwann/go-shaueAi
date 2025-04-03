@@ -5,7 +5,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/golang/go-shaueAi/shaueai"
+	"github.com/shwann/go-shaueAi/shaueai"
 	"io"
 	"os"
 )
