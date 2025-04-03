@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"gitlab.rejo9.com/golang/go-shaueAi/jsonschema"
-	"gitlab.rejo9.com/golang/go-shaueAi/shaueai"
+	"github.com/golang/go-shaueAi/jsonschema"
+	"github.com/golang/go-shaueAi/shaueai"
 	"os"
 )
 
