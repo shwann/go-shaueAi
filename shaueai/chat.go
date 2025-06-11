@@ -280,6 +280,7 @@ const (
 )
 
 type Tool struct {
+	ID       string              `json:"id,omitempty"`
 	Type     ToolType            `json:"type"`
 	Function *FunctionDefinition `json:"function,omitempty"`
 }

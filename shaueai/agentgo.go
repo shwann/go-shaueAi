@@ -90,7 +90,7 @@ func (client *Client) AgentGoCompletionStream(systemPrompt string, userPrompt st
 
 func (client *Client) AgentGoChatCompletionStream(messages []ChatCompletionMessage, model string, callback func(resp string, err error)) {
 	req := ChatCompletionRequest{
-		Stream:   false,
+		Stream:   true,
 		Model:    model,
 		Messages: messages,
 	}
